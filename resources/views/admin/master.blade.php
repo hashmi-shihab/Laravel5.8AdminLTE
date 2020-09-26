@@ -20,6 +20,9 @@
     <script src="{{asset('https://oss.maxcdn.com/respond/1.4.2/respond.min.js')}}"></script>
     <link rel="stylesheet" href="{{asset('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic')}}">
     <link rel="stylesheet" href="{{asset('backend/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/bower_components/select2/dist/css/select2.min.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/plugins/iCheck/all.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/style.css')}}">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -64,6 +67,7 @@
 <script src="{{asset('backend/bower_components/bootstrap/dist/js/bootstrap.min.js')}}"></script>
 <script src="{{asset('backend/bower_components/datatables.net/js/jquery.dataTables.min.js')}}"></script>
 <script src="{{asset('backend/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js')}}"></script>
+<script src="{{asset('backend/bower_components/select2/dist/js/select2.full.min.js')}}"></script>
 <script src="{{asset('backend/bower_components/raphael/raphael.min.js')}}"></script>
 <script src="{{asset('backend/bower_components/morris.js/morris.min.js')}}"></script>
 <script src="{{asset('backend/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js')}}"></script>
@@ -79,6 +83,7 @@
 <script src="{{asset('backend/dist/js/adminlte.min.js')}}"></script>
 <script src="{{asset('backend/dist/js/pages/dashboard.js')}}"></script>
 <script src="{{asset('backend/dist/js/demo.js')}}"></script>
+<script src="{{asset('backend/plugins/iCheck/icheck.min.js')}}"></script>
 
 @yield('jsscript')
 
