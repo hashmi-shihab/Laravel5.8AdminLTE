@@ -2,9 +2,9 @@
     <!-- Logo -->
     <a href="#" class="logo">
 
-        <span class="logo-mini">Soil</span>
+        <span class="logo-mini">LTE</span>
 
-        <span class="logo-lg">Soil</span>
+        <span class="logo-lg">Laravel5.8AdminLTE</span>
     </a>
 
     <nav class="navbar navbar-static-top">

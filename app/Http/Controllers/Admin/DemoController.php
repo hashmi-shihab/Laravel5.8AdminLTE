@@ -46,7 +46,7 @@ class DemoController extends Controller
         //
     }
 
-    
+
     public function destroy($id)
     {
         //

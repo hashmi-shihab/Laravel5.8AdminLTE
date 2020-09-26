@@ -1,5 +1,4 @@
 @extends('admin.master')
-{{--@section('title','G8Account')--}}
 @section('content')
 <div class="container">
     <section class="content">
